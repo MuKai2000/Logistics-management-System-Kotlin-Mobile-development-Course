@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:background="@drawable/background"
+
+    tools:context=".EnterActivity"
+    android:paddingTop="25dp"
+    android:paddingBottom="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        android:orientation="vertical"
+
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@+id/text_terminus_3"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+
+                android:text="@string/text_terminus"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+                android:gravity="right|center_vertical"
+                android:paddingEnd="10dp"
+                />
+
+            <EditText
+                android:id="@+id/edit_terminus_3"
+                android:layout_width="88dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:autofillHints="@string/autofillHints"
+                android:background="@drawable/edit_background_red"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/black"
+
+                android:textSize="25sp" />
+            <TextView
+                android:id="@+id/text_departure_3"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+
+                android:text="@string/text_departure_example"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+                android:gravity="center"
+                android:paddingStart="10dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/text_consignor_3"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+
+                android:text="@string/text_consignor"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+                android:gravity="right|center_vertical"
+                android:paddingEnd="10dp"
+                />
+            <EditText
+                android:id="@+id/edit_consignor_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:autofillHints="@string/autofillHints"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:gravity="start|center_vertical"
+                android:inputType="textPersonName"
+
+                android:maxLines="1"
+
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+
+                android:background="@drawable/edit_background_black"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/text_tel_consignor_3"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+
+                android:text="@string/text_tel_consignor"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+                android:gravity="right|center_vertical"
+                android:paddingEnd="10dp"
+                />
+            <EditText
+                android:id="@+id/edit_tel_consignor_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:autofillHints="@string/autofillHints"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:gravity="start|center_vertical"
+                android:inputType="phone"
+
+                android:maxLines="1"
+
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+
+                android:background="@drawable/edit_background_black"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/text_consignee_3"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+
+                android:text="@string/text_consignee"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+                android:gravity="right|center_vertical"
+                android:paddingEnd="10dp"
+                />
+            <EditText
+                android:id="@+id/edit_consignee_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:autofillHints="@string/autofillHints"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:gravity="start|center_vertical"
+                android:inputType="textPersonName"
+
+                android:maxLines="1"
+
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+
+                android:background="@drawable/edit_background_black"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/text_tel_consignee_3"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+
+                android:text="@string/text_tel_consignee"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+                android:gravity="right|center_vertical"
+                android:paddingEnd="10dp"
+                />
+            <EditText
+                android:id="@+id/edit_tel_consignee_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:autofillHints="@string/autofillHints"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:gravity="start|center_vertical"
+                android:inputType="phone"
+
+                android:maxLines="1"
+
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+
+                android:background="@drawable/edit_background_black"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/text_name_goods_3"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+
+                android:text="@string/text_name_goods"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+                android:gravity="right|center_vertical"
+                android:paddingEnd="10dp"
+                />
+            <EditText
+                android:id="@+id/edit_name_goods_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:autofillHints="@string/autofillHints"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:gravity="start|center_vertical"
+                android:inputType="text"
+
+                android:maxLines="1"
+
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+
+                android:background="@drawable/edit_background_red"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/text_num_goods_3"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+
+                android:text="@string/text_num_goods"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+                android:gravity="right|center_vertical"
+                android:paddingEnd="10dp"
+                />
+            <EditText
+                android:id="@+id/edit_num_goods_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:autofillHints="@string/autofillHints"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:gravity="start|center_vertical"
+                android:inputType="number"
+
+                android:maxLines="1"
+
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+
+                android:background="@drawable/edit_background_red"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/text_cost_paid_3"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+
+                android:text="@string/text_cost_paid"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+                android:gravity="right|center_vertical"
+                android:paddingEnd="10dp"
+                />
+            <EditText
+                android:id="@+id/edit_cost_paid_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:autofillHints="@string/autofillHints"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:gravity="start|center_vertical"
+                android:inputType="number"
+
+                android:maxLines="1"
+
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+
+                android:background="@drawable/edit_background_black"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/text_cost_unpaid_3"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+
+                android:text="@string/text_cost_unpaid"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+                android:gravity="right|center_vertical"
+                android:paddingEnd="10dp"
+                />
+            <EditText
+                android:id="@+id/edit_cost_unpaid_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:autofillHints="@string/autofillHints"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:gravity="start|center_vertical"
+                android:inputType="number"
+
+                android:maxLines="1"
+
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+
+                android:background="@drawable/edit_background_black"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+        <Button
+            android:id="@+id/button_back_3"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+
+            android:text="@string/button_back"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+
+            android:background="@drawable/button_background"
+            />
+        <Button
+            android:id="@+id/button_save_3"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+
+            android:text="@string/button_save"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+
+            android:background="@drawable/button_background"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

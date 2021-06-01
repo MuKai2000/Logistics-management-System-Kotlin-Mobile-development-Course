@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">物流管理系统V2.0</string>
+    <string name="ic_logistics">物流图标</string>
+    <string name="ic_user">用户图标</string>
+    <string name="ic_password">密码图标</string>
+    <string name="autofillHints">No Hints</string>
+    <string name="hint_username">请输入用户名</string>
+    <string name="hint_password">请输入密码</string>
+    <string name="button_login">登录</string>
+    <string name="button_logout">切换用户</string>
+    <string name="button_register">注册</string>
+    <string name="button_exit">退出</string>
+    <string name="button_enter">录入运单</string>
+    <string name="button_search_local">查询本机运单</string>
+    <string name="button_search_company_xml">查询公司运单XML</string>
+    <string name="button_search_company_json">查询公司运单Json</string>
+    <string name="button_back">返回</string>
+    <string name="button_save">保存</string>
+    <string name="text_consignor">发货人:</string>
+    <string name="text_tel_consignor">发货电话:</string>
+    <string name="text_consignee">收货人:</string>
+    <string name="text_tel_consignee">收货电话:</string>
+    <string name="text_name_goods">货物名称:</string>
+    <string name="text_num_goods">件数:</string>
+    <string name="text_cost_paid">已付运费:</string>
+    <string name="text_cost_unpaid">到付运费:</string>
+    <string name="text_departure_example">发站:火星</string>
+    <string name="text_terminus">到站:</string>
+    <string name="text_search_local_title">本机运单</string>
+    <string name="text_search_company_xml_title">公司运单XML</string>
+    <string name="text_search_company_json_title">公司运单Json</string>
+    <string name="text_path_item_example">北京-沈阳</string>
+    <string name="text_goods_item_example">服装 1件</string>
+    <string name="text_no_item_example">No:123456</string>
+    <string name="text_consignee_item_example">收货人：张三(13940259918)</string>
+    <string name="text_cost_item_example">到付300元</string>
+    <string name="text_line1_item_example">北京-沈阳  服装:1件  No:123456</string>
+    <string name="text_line2_item_example">收货人:张三(13940259918)  到付300元</string>
+
+    <string name="text_register_title">账号注册</string>
+    <string name="text_user_department">部门:</string>
+    <string name="text_user_name">姓名:</string>
+    <string name="text_user_username">账号:</string>
+    <string name="text_user_password">密码:</string>
+    <string name="text_user_tel">电话:</string>
+    <string name="text_user_city">城市</string>
+
+
+</resources>
